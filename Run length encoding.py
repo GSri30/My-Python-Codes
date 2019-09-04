@@ -1,6 +1,7 @@
-from Q1input import *
+# https://en.wikipedia.org/wiki/Run-length_encoding
 
 # Your code - begin
+inp='wwwwwhddddiiiiidiiisii'
 i=0
 output1=[]
 output2=[]
