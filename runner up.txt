@@ -1,0 +1,17 @@
+n=int(input())
+scores=input()
+listt=scores.split(' ')
+listt.sort()
+m=max(listt)
+m2=-9999999
+for i in range (len(listt)):
+    #if listt[i]!=m:
+    if listt[i] != m and int(listt[i]) > int(m2):
+        m2=listt[i]
+    else:
+        break
+print(m2)
+
+
+
+
