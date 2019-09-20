@@ -1,3 +1,5 @@
+#find the next date of the input date
+
 day=int(input())
 month=int(input())
 year=int(input())
